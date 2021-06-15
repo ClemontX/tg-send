@@ -29,7 +29,6 @@ You need to get these environment variables:
 
 ```bash
 docker run \
-
 	-e KEY=[your key] \
 	-e AUTHUSER=[http-basic-auth-user] \
 	-e AUTHPASS=[http-basic-auth-password]  \
