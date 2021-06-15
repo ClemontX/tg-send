@@ -6,7 +6,7 @@
 #URL
 while true; do
 	
-	if [[ -z "${USER}" ]]; then
+	if [[ -z "${AUTHUSER}" ]]; then
   	wget $URL -O send.$FILETYPE
 	else
 	wget --user=$AUTHUSER --password=$AUTHPASS $URL -O send.$FILETYPE
