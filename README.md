@@ -1,4 +1,6 @@
 # tg-send - Simple File send to TelegramChat with Bot
+## Informtion
+This container checks every 5 minutes if a file has been updated and sends it to you via Telegram.
 ## Preparation
 ### Create Bot
 write to  the BotFather via [https://t.me/BotFather](https://t.me/BotFather)
